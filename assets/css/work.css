@@ -1,0 +1,217 @@
+#main {
+	padding: 100px 0;
+}
+
+#header {
+	background: #fafafa;
+	color: #555555;
+	width: 10em;
+	border: 1px solid #d1f1e9;
+}
+
+#wrapper {
+    padding-right: 10em;
+}
+
+#header h1 a, #header h2 a, #header h3 a, #header h4 a, #header h5 a, #header h6 a {
+    color: #555555;
+}
+
+#header > header p {
+	color: #555555;
+}
+
+.button {
+	font-family: 'ArcherProBook';
+	font-size: 18px;
+	background: #fafafa;
+	color: #555555 !important;
+	text-align: center;
+	border: 0;
+	padding: 1em 0;
+}
+
+.active {
+	border-left: 1px solid #ffffff;
+	margin-left: -2px;
+	background: #ffffff !important;
+	width: 100%;
+	padding: 1.1em 0;
+	font-weight: bold;
+	
+}
+
+figcaption {
+	width: 120px;
+	height: 120px;
+}
+
+.work_img {
+	width: 130px;
+	height: 130px;
+	
+}
+
+.active_work_img {
+	border: 2px solid #444444;
+}
+
+.isotope {
+	height: 15em;
+	margin-bottom: 3%;
+}
+
+.isotope ul li {
+	float: left;
+}
+
+body.header-visible #wrapper, body.header-visible #titleBar {
+    transform: translateX(-10em);
+}
+
+#content {
+	clear: both;
+	padding: 100px 200px 0px 200px;
+	border-top: 2px solid #d1f1e9;
+}
+
+#content h1 {
+	font-size: 30px;
+	color: #777777;
+}
+
+#content p {
+	margin-bottom: 1em;
+	padding: 0 5em;
+	font-size: 20px;
+}
+
+#mywork p {
+	font-size: 20px;
+}
+
+.launchsite {
+	color: #d1f1e9;
+	text-decoration: underline;
+	font-style: italic;
+	margin-bottom: 50px;
+	font-size: 1.5em;
+	line-height: 4em;
+}
+
+#content img {
+	margin: 50px 20px;
+}
+
+.imac {
+	width: 85%;
+	height: auto;
+}
+
+.ipad {
+	width: 40%;
+	height: auto;
+}
+
+.mobile {
+	width: 25%;
+	height: auto;
+}
+
+.logo_design {
+	width: 50%;
+	height: auto;
+}
+
+.mockup {
+	width: 50%;
+	height: auto;
+}
+
+.h_mockup {
+	width: 70%;
+	height: auto;
+}
+
+@media screen and (max-width: 1459px) {
+	#content p {
+		padding: 0 2em;
+	}
+}
+
+@media screen and (max-width: 1280px) {
+	#content {
+		padding: 100px 100px 0px 100px;
+	}
+	
+	#content p, #content a {
+		font-size: 19px;
+	}
+	
+}
+
+@media screen and (max-width: 1024px) {
+	#wrapper {
+    	padding-right: 0;
+	}
+	.isotope {
+		height: 10em;
+		margin-bottom: 0;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	#content {
+		padding: 100px 0px 0px 0px;
+	}
+	
+	
+}
+
+@media screen and (max-width: 480px) {
+
+	#main, #content {
+		padding-top: 45px;
+	}
+	
+	#mywork p {
+		margin-bottom: 0;
+	}
+	#content p {
+		padding: 0;
+		font-size: 16px;
+	}
+	.work_img {
+		width: 100px;
+		height: 100px;
+	}
+	
+	#content img {
+		margin: 30px 0px;
+	}
+	
+	.imac, .logo_design, .mockup, .h_mockup {
+		width: 100%;
+	}
+	
+	.ipad {
+		width: 80%;
+	}
+	
+	.mobile {
+		width: 65%;
+	}
+	
+}
+
+@media screen and (max-width: 320px) {
+	#mywork li {
+		margin: 10px 0;
+	}
+	ul li {
+		padding-left: 0;
+	}
+	#three .container, #mywork li {
+		width: 93% !important;
+	}
+}
